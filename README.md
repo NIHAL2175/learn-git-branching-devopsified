@@ -9,7 +9,6 @@
 ![Helm](https://img.shields.io/badge/Helm-Charts-0F1689?logo=helm)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?logo=github-actions)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-GitOps-EF7B4D?logo=argo)
-![Kind](https://img.shields.io/badge/Kind-Kubernetes-8A2BE2)
 ![NGINX](https://img.shields.io/badge/NGINX-Ingress-009639?logo=nginx)
 
 ![demo-gif](https://user-images.githubusercontent.com/6324814/108740487-02c3c400-7536-11eb-9dd1-53275cdf76fb.gif)
