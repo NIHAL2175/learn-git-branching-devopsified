@@ -38,4 +38,4 @@ COPY --from=base /app/generatedDocs /usr/share/nginx/html/generatedDocs
 EXPOSE 80
 
 # Start nginx
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]   
