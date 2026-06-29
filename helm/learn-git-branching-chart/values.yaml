@@ -5,7 +5,7 @@ replicaCount: 1
 image:
   repository: nihal2175/learn-git-branching-devopsified
   pullPolicy: IfNotPresent
-  tag: "28357824406"
+  tag: "28357970165"
 
 service:
   type: ClusterIP
