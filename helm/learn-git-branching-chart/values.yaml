@@ -1,0 +1,35 @@
+# Default values for learn-git-branching-chart
+
+replicaCount: 1
+
+image:
+  repository: nihal2175/learn-git-branching-devopsified
+  pullPolicy: IfNotPresent
+  tag: "28341145107"
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 80
+
+ingress:
+  enabled: true
+  className: nginx
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  hosts:
+    - host: learn-git-branching.local
+      paths:
+        - path: /
+          pathType: Prefix
+
+resources: {}
+
+autoscaling:
+  enabled: false
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

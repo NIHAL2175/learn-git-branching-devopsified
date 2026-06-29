@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: learn-git-branching
+  labels:
+    app: learn-git-branching
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: learn-git-branching
+
+  template:
+    metadata:
+      labels:
+        app: learn-git-branching
+
+    spec:
+      containers:
+      - name: learn-git-branching
+        image: nihal2175/learn-git-branching:v1
+        imagePullPolicy: Always
+
+        ports:
+        - containerPort: 80
