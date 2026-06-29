@@ -11,7 +11,7 @@
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-GitOps-EF7B4D?logo=argo)
 ![NGINX](https://img.shields.io/badge/NGINX-Ingress-009639?logo=nginx)
 
-![demo-gif](https://user-images.githubusercontent.com/6324814/108740487-02c3c400-7536-11eb-9dd1-53275cdf76fb.gif)
+![Architecture](architecture/arch.png)
 
 </div>
 
@@ -24,6 +24,11 @@ DevOpsified Learn Git Branching is an enhanced version of the Learn Git Branchin
 Instead of simply running the application locally, this project demonstrates how a modern application is developed, containerized, deployed, automated and continuously delivered using cloud-native tools.
 
 The project covers every stage of the software delivery lifecycle including Docker, Kubernetes, Helm, GitHub Actions, Argo CD and GitOps deployment strategies.
+<div align="center">
+
+![demo-gif](https://user-images.githubusercontent.com/6324814/108740487-02c3c400-7536-11eb-9dd1-53275cdf76fb.gif)
+
+</div>
 
 ---
 
