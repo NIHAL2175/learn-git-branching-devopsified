@@ -132,8 +132,6 @@ The application is deployed on a **Kind (Kubernetes in Docker)** cluster using K
 | Ingress | Routes external traffic |
 | Namespace | Resource isolation |
 
----
-
 ## Kubernetes Architecture
 
 ```
@@ -182,8 +180,6 @@ helm/
 
 ```
 
----
-
 ## Helm Advantages
 
 - Easy deployment
@@ -201,8 +197,6 @@ This project uses GitHub Actions for Continuous Integration.
 
 Every push to the **main** branch automatically starts the pipeline.
 
----
-
 ## Pipeline Workflow
 
 ```
@@ -219,9 +213,6 @@ Push
 Update Helm Chart
 
 ```
-
----
-
 ## 1️⃣ Build Stage
 
 The Build stage performs:
@@ -231,8 +222,6 @@ The Build stage performs:
 - Verify project structure
 - Generate production build
 
----
-
 ## 2️⃣ Code Quality Stage
 
 The Code Quality stage performs:
@@ -241,8 +230,6 @@ The Code Quality stage performs:
 - Code formatting checks
 - Static analysis
 - Build verification
-
----
 
 ## 3️⃣ Push Stage
 
@@ -262,8 +249,6 @@ docker build -t username/devopsified\:latest .
 docker push username/devopsified\:latest
 
 ```
-
----
 
 ## 4️⃣ Update Helm Chart
 
@@ -289,8 +274,6 @@ Whenever Helm values change,
 Argo CD detects the update and synchronizes the Kubernetes cluster automatically.
 
 No manual deployment commands are required.
-
----
 
 ## GitOps Flow
 
@@ -361,7 +344,6 @@ DevOpsified-Learn-Git-Branching/
 - Modern interface
 - Browser-based learning
 
----
 
 ## DevOps
 
@@ -375,7 +357,6 @@ DevOpsified-Learn-Git-Branching/
 - Docker Hub integration
 - Vercel deployment
 
----
 
 ## CI/CD Automation
 
