@@ -2,7 +2,7 @@
 
 # 🚀 DevOpsified Learn Git Branching
 
-
+ 
 
 ![Docker](https://img.shields.io/badge/Docker-Container-2496ED?logo=docker)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-K8s-326CE5?logo=kubernetes)
