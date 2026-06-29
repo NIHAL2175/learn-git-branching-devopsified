@@ -81,7 +81,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/learn-git-branching-devopsified:${{ github.run_id }}
+          tags: nihal2175/learn-git-branching-devopsified:${{ github.run_id }}
 
   update-newtag-in-helm-chart:
     runs-on: ubuntu-latest
