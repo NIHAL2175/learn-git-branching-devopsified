@@ -11,7 +11,7 @@
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-GitOps-EF7B4D?logo=argo)
 ![NGINX](https://img.shields.io/badge/NGINX-Ingress-009639?logo=nginx)
 
-![Architecture](architecture/arch.png)
+![Architecture](Architecture/arch.png)
 
 </div>
 
